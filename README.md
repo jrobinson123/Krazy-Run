@@ -1,5 +1,5 @@
 # Krazy_Run
-Krazy Run is a procedurally generated platformer video game. I created it as a final project in AP Computer Science A. In Krazy Run you control a character that can move up and down but not left to right. obstacles will begin moving at the player and it must dodge these obstacles. The player will automatically be pulled down and can press "j" to go up and "k" to nosedive. Every 400 pixels a new randomly generated obstacle will come. Your goal is to get as many points as possible through destroying shooting enemies, dodging obstacles and grabbing coins. As your score increases, so does the speed of the game. If you touch an obstacle the player will die. You can restart the program by pressing down on the mouse button. 
+Krazy Run is a procedurally generated platformer video game. I created it as a final project in AP Computer Science A. In Krazy Run you control a character that can move up and down but not left to right. Obstacles will begin moving at the player and it must dodge these obstacles. The player will automatically be pulled down and can press "j" to go up and "k" to nosedive. Every 400 pixels a new randomly generated obstacle will come. Your goal is to get as many points as possible through destroying shooting enemies, dodging obstacles and grabbing coins. As your score increases, so does the speed of the game. If you touch an obstacle the player will die. You can restart the program by pressing down on the mouse button. 
 ### There are 6 distinct kinds of obstacles:
   1. Chopping Block: A Chopping Block is two rectangles which begin to grow from the top and bottom of the screen, leaving a      narrow hole for the player to go through
   2. Cruncher: A cruncher is a large rectangle which only has a small opening at the top and bottom for the player to go         through
@@ -308,38 +308,7 @@ void reverseAirCurrent(){
     }
   }
 ```
-The destructible class allows for a very cool disintegration effect of obstacles. A destructible object displays an array of circles which group together to form an apprent rectangle. The circles then move quickly in random directions as their size decreases, making it seem as if the rectangle is disintegrating. The circles are made through a class called Oval.
-```processing
-class oval{
-  int x,y;
-  int xSize,ySize;
-  int xSpeed, ySpeed;
-  color gameColor;
-  oval(int x, int y, int xSize, int ySize, int xSpeed, int ySpeed, color gameColor){
-    this.x = x;
-    this.y = y;
-    this.xSize = xSize;
-    this.ySize = ySize;
-    this.xSpeed = xSpeed;
-    this.ySpeed = ySpeed;
-    this.gameColor = gameColor;
-  }
-  void display(int xSize, int ySize){
-    this.xSize = xSize;
-    this.ySize = ySize;
-    fill(gameColor);
-    ellipseMode(CORNER);
-    ellipse(x,y,xSize,ySize);
-    x -= horizontalSpeed;
-  }
-  void update(){
-    x += xSpeed;
-    y += ySpeed;
-  }
-  
-}
-```
-The destructible class initializes an array of ovals known as the firstWave based on a specified number of columns and rows. 
+The destructible class allows for a very cool disintegration effect of obstacles. A destructible object displays an array of circles which group together to form an apprent rectangle. The circles then move quickly in random directions as their size decreases, making it seem as if the rectangle is disintegrating. The destructible class initializes an array of ovals objects known as the firstWave based on a specified number of columns and rows. 
 ```processing
 destructible(int x, int y, int rows, int collumns, color gameColor, int number){
     index= 0;
@@ -371,7 +340,40 @@ destructible(int x, int y, int rows, int collumns, color gameColor, int number){
   }
   }
 ```
-Obstacles and PowerUps are displayed and updated through a method called Display and a Method called Update. These methods are run in Draw().  Every type of PowerUp and Obstacle has its own ArrayList that adds and removes objects to create and destroy Obstacles and PowerUps. 
+The destructible classes makes an array of the oval class. 
+```processing
+class oval{
+  int x,y;
+  int xSize,ySize;
+  int xSpeed, ySpeed;
+  color gameColor;
+  oval(int x, int y, int xSize, int ySize, int xSpeed, int ySpeed, color gameColor){
+    this.x = x;
+    this.y = y;
+    this.xSize = xSize;
+    this.ySize = ySize;
+    this.xSpeed = xSpeed;
+    this.ySpeed = ySpeed;
+    this.gameColor = gameColor;
+  }
+  void display(int xSize, int ySize){
+    this.xSize = xSize;
+    this.ySize = ySize;
+    fill(gameColor);
+    ellipseMode(CORNER);
+    ellipse(x,y,xSize,ySize);
+    x -= horizontalSpeed;
+  }
+  void update(){
+    x += xSpeed;
+    y += ySpeed;
+  }
+  
+}
+```
+
+
+Obstacles and PowerUps are displayed and updated through a method called Display and a Method called Update. These methods are run in Draw().  Every type of PowerUp and obstacle has its own ArrayList that adds and removes objects to create and destroy obstacles and PowerUps. 
 ```processsing
 void display(){
   
