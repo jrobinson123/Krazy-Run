@@ -519,6 +519,9 @@ All Sound was either made in-house or found on freesound.org
 4. https://freesound.org/people/TheDweebMan/sounds/277214/
 5. https://freesound.org/people/GameAudio/sounds/220173/
 6. https://freesound.org/people/Robinhood76/sounds/273332/
+Credit for Lava Images:
+https://opengameart.org/content/16x16-and-animated-lava-tile-45-frames
+
 
 ### Insight / Motivation:
 This game allowed for me to create a platformer with unique visual effects, obstacles, and powerups. It presented numerous technical challenges that I was able to resolve through trying new approaches. I controlled Obstacles creation and destrucion by holding them in ArrayLists. I wanted to add a cheat code so I added a conditional to allow it. I wanted a cool disintegration effect so I made my own class of which displayed a randomly moving array of circles. The end result is a fun game that I'm proud to call my own. 
