@@ -308,7 +308,7 @@ void reverseAirCurrent(){
     }
   }
 ```
-The destructible class allows for a very cool disintegration effect of obstacles. A destructible object displays an array of circles which group together to form an apprent rectangle. The circles then move quickly in random directions as their size decreases, making it seem as if the rectangle is disintegrating. The destructible class initializes an array of ovals objects known as the firstWave based on a specified number of columns and rows. 
+The destructible class allows for a very cool disintegration effect of obstacles. A destructible object displays an array of circles which group together to form an apprent rectangle. The circles then move quickly in random directions as their size decreases, making it seem as if the rectangle is disintegrating. The destructible class initializes an array of ovals objects named firstWave based on a specified number of columns and rows. 
 ```processing
 destructible(int x, int y, int rows, int collumns, color gameColor, int number){
     index= 0;
@@ -340,7 +340,7 @@ destructible(int x, int y, int rows, int collumns, color gameColor, int number){
   }
   }
 ```
-The destructible classes makes an array of the oval class. 
+The oval class is an ellipse of changing position and size. 
 ```processing
 class oval{
   int x,y;
