@@ -3,7 +3,7 @@ Krazy Run is a procedurally generated platformer video game. I created it as a f
 ### There are 6 distinct kinds of obstacles:
   1. Chopping Block: A Chopping Block is two rectangles which begin to grow from the top and bottom of the screen, leaving a      narrow hole for the player to go through
   2. Cruncher: A cruncher is a large rectangle which only has a small opening at the top and bottom for the player to go         through.
-  ![](cruncher.gif)
+  ![](videos/cruncher.mp4)
   3. Blade: A blade is a small rectangle which quickly moves up and down.
   4. Enemy: The enemy is a semi-circle. You can destroy the enemy by jumping on it from the top but the player will die if it      hits the enemy from the side. The enemy will shoot bullets targeted at you. 
   5. Fan: the fan can't directly kill the player, but it does reverse the direction that the player is naturally pulled, and amplifies the push from pressing "j" and weakens the push from "k".
