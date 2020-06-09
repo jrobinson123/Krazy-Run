@@ -10,6 +10,9 @@ Krazy Run is a procedurally generated platformer video game. I created it as a f
   ![](gifs/cruncher.gif)
   
   3. Blade: A blade is a small rectangle which quickly moves up and down.
+  
+  ![](gifs/choppingBlock.gif)
+  
   4. Enemy: The enemy is a semi-circle. You can destroy the enemy by jumping on it from the top but the player will die if it      hits the enemy from the side. The enemy will shoot bullets targeted at you. 
   5. Fan: the fan can't directly kill the player, but it does reverse the direction that the player is naturally pulled, and amplifies the push from pressing "j" and weakens the push from "k".
   6. Lava: Lava is simple, you can't fall in it or the player dies, however sometimes lava will give you a power up, there are  3 types of powerups
