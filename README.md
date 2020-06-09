@@ -27,8 +27,17 @@ Krazy Run is a procedurally generated platformer video game. I created it as a f
   
   ### power ups
   1. Coin: Getting a coin increases the score by 3
+  
+  ![](gifs/coin.gif)
+  
   2. Destroyer(Brown Circle): If you get a destroyer, you get an aprox. 10 second window to press d and disintegrate all            obstacles in your path.
+  
+  ![](gifs/destroyer.gif)
+  
   3. Invincibility: Gaining Invincibility will enlarge your player, increases its speed, and allow you to destroy all              obstacles you touch. Before you lose invincibility you will go into slow-motion and shrink back to regular size. 
+  
+  ![](gifs/invincible.gif)
+  
 ### Dependencies
 The entire program is written in Processing 3. f you don’t already have processing you can download it off the internet: https://processing.org/download/. This program only uses one external library: processing.sound.
 
@@ -148,7 +157,7 @@ class Obstacle{
 }
 
 ```
-The Enemy class deviate significantly from the parent Obstacle class, the Enemy class has additional conditionals that allow for the player to destroy the enemy if it hits the enemy from the top. The enemy also launches bullets periodically. Here's the overidden update method.
+The Enemy class deviates significantly from the parent Obstacle class, the Enemy class has additional conditionals that allow for the player to destroy the enemy if it hits the enemy from the top. The enemy also launches bullets periodically. Here's the overidden update method.
 ```processing
  void update(){
     //if the player is too close to the enemy, it isn't allowed to shoot
