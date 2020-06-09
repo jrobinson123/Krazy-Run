@@ -19,7 +19,7 @@ Krazy Run is a procedurally generated platformer video game. I created it as a f
    
   5. Fan: the fan can't directly kill the player, but it does reverse the direction that the player is naturally pulled, and amplifies the push from pressing "j" and weakens the push from "k".
   
-   ![](fan/blade.gif)
+   ![](gifs/fan.gif)
    
   6. Lava: Lava is simple, you can't fall in it or the player dies, however sometimes lava will give you a power up, there are  3 types of powerups
   
