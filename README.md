@@ -17,7 +17,7 @@ Krazy Run is a procedurally generated platformer video game. I created it as a f
   
    ![](gifs/enemy.gif)
    
-  5. Fan: the fan can't directly kill the player, but it does reverse the direction that the player is naturally pulled, and amplifies the push from pressing "j" and weakens the push from "k".
+  5. Fan: the fan can't directly kill the player, but it does reverse the direction that the player is naturally pulled, and amplifies the upward push from pressing "j" and weakens the downward push from "k".
   
    ![](gifs/fan.gif)
    
