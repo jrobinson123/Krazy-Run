@@ -2,7 +2,7 @@
 Krazy Run is a procedurally generated platformer video game. I created it as a final project in AP Computer Science A. In Krazy Run you control a character that can move up and down but not left to right. Obstacles will begin moving at the player and it must dodge these obstacles. The player will automatically be pulled down and can press "j" to go up and "k" to nosedive. Every 400 pixels a new randomly generated obstacle will come. Your goal is to get as many points as possible through destroying shooting enemies, dodging obstacles and grabbing coins. As your score increases, so does the speed of the game. If you touch an obstacle the player will die. You can restart the program by pressing down on the mouse button. 
 ### There are 6 distinct kinds of obstacles:
   1. Chopping Block: A Chopping Block is two rectangles which begin to grow from the top and bottom of the screen, leaving a      narrow hole for the player to go through
-  2. Cruncher: A cruncher is a large rectangle which only has a small opening at the top and bottom for the player to go         through
+  2. Cruncher: A cruncher is a large rectangle which only has a small opening at the top and bottom for the player to go         through.
   <iframe src="https://giphy.com/embed/VeAh6HsWSdzfPOxuVK" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/VeAh6HsWSdzfPOxuVK">via GIPHY</a></p>
   3. Blade: A blade is a small rectangle which quickly moves up and down.
   4. Enemy: The enemy is a semi-circle. You can destroy the enemy by jumping on it from the top but the player will die if it      hits the enemy from the side. The enemy will shoot bullets targeted at you. 
