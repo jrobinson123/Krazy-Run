@@ -42,7 +42,7 @@ Krazy Run is a procedurally generated platformer video game. I created it as a f
 The entire program is written in Processing 3. If you don’t already have processing you can download it off the internet: https://processing.org/download/. This program only uses one external library: processing.sound.
 
 ### Usage:
-Clone my code with git. Once you have all the files on your computer, you can play the game by opening a one of .pde and pressing the play button in the processing environment. It should be noted that I wasn't able to export a version of this program that worked. 
+Clone my code with git. Once you have all the files on your computer, you can play the game by opening a one of .pde and pressing the play button in the processing environment. You can also the export the application as a double-clickable executible on Mac or PC by pressing File/Export Application in the Processing evnironment. I enourage the code to be remixed and modified. 
 
 ### Code Explanation
 A class called BackDrop is used for the background
