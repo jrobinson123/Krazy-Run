@@ -13,7 +13,7 @@ Krazy Run is a procedurally generated platformer video game. I created it as a f
   
   ![](gifs/blade.gif)
   
-  4. Enemy: The enemy is a semi-circle. You can destroy the enemy by jumping on it from the top but the player will die if it      hits the enemy from the side. The enemy will shoot bullets targeted at you. 
+  4. Enemy: The enemy is a shooter will shoot bullets at you. The bullets will be targeted at the player based on its        position.  the  You can destroy the enemy by jumping on it from the top but the player will die if it  hits the enemy from the side. 
   
    ![](gifs/enemy.gif)
    
