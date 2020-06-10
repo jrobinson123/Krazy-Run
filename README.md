@@ -13,15 +13,15 @@ Krazy Run is a procedurally generated platformer video game. I created it as a f
   
   ![](gifs/blade.gif)
   
-  4. Enemy: The enemy launches targeted bullets. The bullets trajectory is based on player position at time of firing. You can destroy the enemy by jumping on it from the top but the player will die ifit  hits the enemy from the side. 
+  4. Enemy: The enemy launches targeted bullets. The bullets trajectory is based on player position at time of firing. You can destroy the enemy by jumping on it from the top but the player will die if it  hits the enemy from the side. 
   
    ![](gifs/enemy.gif)
    
-  5. Fan: the fan can't directly kill the player, but it does reverse the direction that the player is naturally pulled, and amplifies the upward push from pressing "j" and weakens the downward push from "k".
+  5. Fan: the fan can't directly kill the player, but it does reverse the direction that the player is naturally pulled, and amplifies the player's upward velocity and weakens the player's downwards velocity.
   
    ![](gifs/fan.gif)
    
-  6. Lava: Lava is simple, you can't fall in it or the player dies, however sometimes lava will give you a power-up, there are  3 types of power-ups
+  6. Lava: Lava is simple, you can't touch it or else the player dies. However sometimes power-ups will be above lava, there are  3 types of power-ups
   
    ![](gifs/lava.gif)
   
