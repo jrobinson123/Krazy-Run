@@ -1,5 +1,5 @@
 # Krazy_Run
-Krazy Run is a procedurally generated platformer video game. I created it as a final project in AP Computer Science A. In Krazy Run you control a character that can move up and down but not left to right. Obstacles will begin moving at the player and it must dodge these obstacles. The player will automatically be pulled down and can press "j" to go up and "k" to nosedive. Every 400 pixels a new randomly generated obstacle will come. Your goal is to get as many points as possible through destroying shooting enemies, dodging obstacles and grabbing coins. As your score increases, so does the speed of the game. If you touch an obstacle the player will die. You can restart the program by pressing down on the mouse button. 
+Krazy Run is a procedurally generated platformer video game. I created it as a final project in AP Computer Science A. This game allowed for me to create a platformer with unique visual effects, obstacles, and powerups. It presented numerous technical challenges that I was able to resolve through trying new approaches. In Krazy Run you control a character that can move up and down but not left to right. Obstacles will begin moving at the player and it must dodge these obstacles. Your goal is to get as many points as possible through destroying shooting enemies, dodging obstacles and grabbing coins. As your score increases, so does the speed of the game. If you touch an obstacle the player will die. You can restart the program by pressing down on the mouse button. 
 ### There are 6 distinct kinds of obstacles:
   1. Chopping Block: A Chopping Block is two rectangles which begin to grow from the top and bottom of the screen, leaving a      narrow hole for the player to go through
   
@@ -554,7 +554,6 @@ Credit for Lava Images:
 https://opengameart.org/content/16x16-and-animated-lava-tile-45-frames
 
 
-### Insight / Motivation:
-This game allowed for me to create a platformer with unique visual effects, obstacles, and powerups. It presented numerous technical challenges that I was able to resolve through trying new approaches. I controlled obstacles creation and destrucion by holding them in ArrayLists. I wanted to add a cheat code so I added a conditional to allow it. I wanted a cool disintegration effect so I made my own class of which displayed a randomly moving array of circles. The end result is a fun game that I'm proud to call my own. 
+
 
 
