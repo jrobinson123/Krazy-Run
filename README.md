@@ -13,7 +13,7 @@ Krazy Run is a procedurally generated platformer video game. I created it as a f
   
   ![](gifs/blade.gif)
   
-  4. Enemy: The enemy is a shooter will shoot bullets at you. The bullets will be targeted at the player based on its        position.  the  You can destroy the enemy by jumping on it from the top but the player will die if it  hits the enemy from the side. 
+  4. Enemy: The enemy launches targeted bullets. The bullets trajectory is based on player position at time of firing. You can destroy the enemy by jumping on it from the top but the player will die ifit  hits the enemy from the side. 
   
    ![](gifs/enemy.gif)
    
@@ -21,11 +21,11 @@ Krazy Run is a procedurally generated platformer video game. I created it as a f
   
    ![](gifs/fan.gif)
    
-  6. Lava: Lava is simple, you can't fall in it or the player dies, however sometimes lava will give you a power up, there are  3 types of powerups
+  6. Lava: Lava is simple, you can't fall in it or the player dies, however sometimes lava will give you a power-up, there are  3 types of power-ups
   
    ![](gifs/lava.gif)
   
-  ### power ups
+  ### power-ups
   1. Coin: Getting a coin increases the score by 3
   
   ![](gifs/coin.gif)
@@ -402,7 +402,7 @@ class oval{
 ```
 
 
-Obstacles and PowerUps are displayed and updated through a method called Display and a Method called Update. These methods are run in Draw().  Every type of PowerUp and obstacle has its own ArrayList that adds and removes objects to create and destroy obstacles and PowerUps. 
+Obstacles and power-ups are displayed and updated through a method called Display and a Method called Update. These methods are run in Draw().  Every type of power-up and obstacle has its own ArrayList that adds and removes objects to create and destroy obstacles and power-ups. 
 ```processsing
 void display(){
   
@@ -487,7 +487,7 @@ void update(){
   }
 }
 ```
-Additionally, there are several other crucial helper methods in this program such as getRandomColor which returns a random color from an array, playerCollision, which returns true if the player is in a collision with a rectangle with a specified x and y pos and size. And reset which resets the game by changing values back to what they were initially and clearing ArrayLists of Obstacles and PowerUps.
+Additionally, there are several other crucial helper methods in this program such as getRandomColor which returns a random color from an array, playerCollision, which returns true if the player is in a collision with a rectangle with a specified x and y pos and size. And reset which resets the game by changing values back to what they were initially and clearing ArrayLists of Obstacles and power-ups.
 ```processing
 //returns a random color from the colors array
 color getRandomColor(){
