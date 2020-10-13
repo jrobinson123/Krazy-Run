@@ -403,7 +403,7 @@ class oval{
 
 
 Obstacles and power-ups are displayed and updated through a method called Display and a Method called Update. These methods are run in Draw().  Every type of power-up and obstacle has its own ArrayList that adds and removes objects to create and destroy obstacles and power-ups. 
-```processsing
+```processing
 void display(){
   
   for(int i = 0; i< backDrop.length; i++){
